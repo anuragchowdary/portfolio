@@ -5,10 +5,14 @@ import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Certifications from "@/components/Certifications";
 import Aurora from "@/components/Aurora";
+import FloatingIcons from "@/components/FloatingIcons";
+import Preloader from "@/components/Preloader";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between bg-black w-full">
+      <Preloader />
+      <FloatingIcons />
       <Aurora />
       {/* 500vh container for the scroll sequence */}
       <div className="relative h-[500vh] w-full">
