@@ -48,7 +48,7 @@ export default function Skills() {
         className="max-w-7xl mx-auto relative z-10"
       >
         <h3 className="text-4xl md:text-5xl font-bold mb-16 text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400 text-center">
-          Technical Arsenal
+          Technical Skills
         </h3>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
